@@ -1,5 +1,5 @@
 # Data Descriptions
-
+## TODO: to be further revised as we work on replicating the data summary stats (figure S3 & S4 pg. 22)
 `pdxe_tissue.csv` (PATIENT_ID, Tissue): maps each tumor ID to its cancer tissue of origin (e.g., GC = gastric cancer, NSCLC = luncg cancer, BRCA, PDAC, CRC)
 
 `pdxe_mut_and_cn2` (Sample, Gene, Category, Details): covariates table in long format. Every row is a single genetic mutation or copy-number change in a tumor (Sample matches PATIENT_ID)
